@@ -26,6 +26,14 @@ p {
   font-size: 23px;
 }
 
+.question {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+
 button {
   display:flex;
   margin-left: 3px;
@@ -36,6 +44,7 @@ button {
   width: 12.5em;
   padding: 16px 21px;
   text-align: center;
+  flex-wrap:wrap;
   text-decoration: none;
   display: inline-block;
   font-size: 17px;
@@ -45,19 +54,20 @@ button:hover {
   background-color: #52796f; 
 }
 
-
-.question {
-  display: flex;
-  justify-content: center;
-  width: 14em;
-  margin-top: 2em;
+a:hover {
+  color: #8da9c4;
 }
+
+
+
 
   
 .answer-choice img {
+  display:flex;
   height: 20em;
   width: 13em;
   padding: 15px;
+  object-fit:cover;
 }
 
 .result {
